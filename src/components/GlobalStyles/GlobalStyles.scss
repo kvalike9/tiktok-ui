@@ -5,6 +5,10 @@
 // <weight>: Use a value from 100 to 900
 :root {
     --primary: #fe2c55;
+
+    //Default layout
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
 }
 
 html {
@@ -22,4 +26,6 @@ body {
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
